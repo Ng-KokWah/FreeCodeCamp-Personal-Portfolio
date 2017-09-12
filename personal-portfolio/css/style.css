@@ -1,0 +1,529 @@
+body {
+  height:100%;
+  text-align:center;
+  background: linear-gradient(263deg, #c170ee, #49f0ea, #4fec21);
+	background-size: 600% 600%;
+	-webkit-animation: AnimationName 31s ease infinite;
+	-moz-animation: AnimationName 31s ease infinite;
+	animation: AnimationName 31s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+
+
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background: linear-gradient(263deg, #dbd72a, #ea8b3e, #e142ea);
+	background-size: 600% 600%;
+	-webkit-animation: AnimationName 31s ease infinite;
+	-moz-animation: AnimationName 31s ease infinite;
+	animation: AnimationName 31s ease infinite;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: right;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:active{background-color:blue;}
+
+#myTopnav {
+  width:1517px;
+}
+
+#name {
+  float:left;
+  margin-top:15px;
+  margin-left:20px;
+  font-weight:900;
+}
+
+#navigation {
+  margin-top:-7px;
+  margin-left:-7px;
+}
+
+#about {
+  background-color:rgba(255,255,255,0.8);
+  margin-top:20px;
+  padding-bottom:5px;
+  border-style:solid;
+  border-color:black;
+  border-radius:30px;
+   border-width:3px;
+}
+
+#text {
+  width:600px;
+  margin-left:450px;
+}
+
+#contactdetails {
+  float:right;
+  margin-right:200px;
+  border-style:solid;
+  border-color:darkblue;
+  border-radius:30px;
+   border-width:3px;
+  background-color:rgb(0,0,0);
+  padding:10px;
+  color:white;
+}
+
+#portfolio {
+background-color:rgba(255,255,255,0.8);
+  padding-bottom:5px;
+  border-style:solid;
+  border-color:black;
+  border-radius:30px;
+   border-width:3px;
+  margin-top:20px;
+  
+}
+
+#contact {
+  background-color:rgba(255,255,255,0.8);
+  margin-top:20px;
+  padding-bottom:5px;
+  height:400px;
+   border-style:solid;
+  border-color:black;
+  border-radius:30px;
+   border-width:3px;
+}
+
+footer {
+  margin-top:40px;
+  margin-bottom:20px;
+  font-weight:900;
+}
+
+#twittext {
+  float:right;
+   color:white;
+  margin-right:20px;
+}
+
+#twitimg {
+  float:left;
+}
+
+#twitter {
+  border-style:solid;
+  width:200px;
+  height:80px;
+}
+
+#twitter:active {
+  background-color:red;
+  color:black;
+  font-weight:900;
+}
+
+#gittext {
+  float:right;
+   color:white;
+  margin-right:20px;
+}
+
+#gitimg {
+  float:left;
+}
+
+#github {
+  border-style:solid;
+  width:200px;
+  height:80px;
+  margin-top:80px;
+}
+
+#github:active {
+  background-color:red;
+  color:black;
+  font-weight:900;
+}
+
+#linkedtext {
+  float:right;
+   color:white;
+  margin-right:20px;
+}
+
+#linkedimg {
+  float:left;
+}
+
+#linkedin{
+  border-style:solid;
+  width:200px;
+  height:80px;
+  float:right;
+  position:relative;
+  bottom:250px;
+}
+
+#linkedin:active {
+  background-color:red;
+  color:black;
+  font-weight:900;
+}
+
+
+#fcctext {
+  float:right;
+   color:white;
+  margin-right:10px;
+}
+
+#fccimg {
+  float:left;
+}
+
+#freecodecamp{
+  border-style:solid;
+  width:250px;
+  height:80px;
+  float:right;
+  position:relative;
+  bottom:85px;
+  left:210px;
+}
+
+#freecodecamp:active {
+  background-color:red;
+  color:black;
+  font-weight:900;
+}
+
+#socialmedia {
+  border-style:solid;
+  border-color:darkblue;
+  border-radius:30px;
+   border-width:3px;
+  background-color:rgb(0,0,0);
+  padding:10px;
+  color:white;
+  position:relative;
+  left:170px;
+  width:500px;
+}
+
+#toptwittext {
+  float:right;
+   color:white;
+  margin-right:20px;
+}
+
+#toptwitimg {
+  float:left;
+}
+
+#toptwitter {
+  border-style:solid;
+  width:200px;
+  height:80px;
+  background-color:black;
+  position:relative;
+  right:190px;
+  margin-bottom:20px;
+}
+
+#toptwitter:active {
+  background-color:red;
+  color:black;
+  font-weight:900;
+}
+
+#topgittext {
+  float:right;
+   color:white;
+  margin-right:20px;
+}
+
+#topgitimg {
+  float:left;
+}
+
+#topgithub {
+  border-style:solid;
+  width:200px;
+  height:80px;
+  background-color:black;
+ position:relative;
+  bottom:105px;
+  right:-350px;
+  
+}
+
+#topgithub:active {
+  background-color:red;
+  color:black;
+  font-weight:900;
+}
+
+#toplinkedtext {
+  float:right;
+   color:white;
+  margin-right:20px;
+}
+
+#toplinkedimg {
+  float:left;
+}
+
+#toplinkedin{
+  border-style:solid;
+  width:200px;
+  height:80px;
+  float:right;
+  position:relative;
+  bottom:190px;
+  right:310px;
+  background-color:black;
+}
+
+#toplinkedin:active {
+  background-color:red;
+  color:black;
+  font-weight:900;
+}
+
+
+#topfcctext {
+  float:right;
+   color:white;
+  margin-right:10px;
+}
+
+#topfccimg {
+  float:left;
+}
+
+#topfreecodecamp{
+  border-style:solid;
+  width:250px;
+  height:80px;
+  float:right;
+   position:relative;
+  bottom:190px;
+  right:-470px;
+  background-color:black;
+}
+
+#topfreecodecamp:active {
+  background-color:red;
+  color:black;
+  font-weight:900;
+}
+
+#title {
+  position:relative;
+  left:450px;
+}
+
+#project1 {
+  border-style:solid;
+  border-color:grey;
+  border-radius:10px;
+  border-width:5px;
+  width:380px;
+  height:270px;
+  margin-left:70px;
+  margin-bottom:20px;
+  color:white;
+  background-color:black;
+}
+
+.text1 {
+  margin-top:5px;
+}
+
+#project2 {
+  border-style:solid;
+  border-color:grey;
+  border-radius:10px;
+  border-width:5px;
+  width:380px;
+  height:270px;
+  margin-left:125px;
+  margin-bottom:20px;
+  color:white;
+  display: inline-block;
+  position:absolute;
+  top:742px;
+  left:430px;
+  background-color:black;
+}
+
+.text2 {
+  margin-top:5px;
+}
+
+#project3 {
+  border-style:solid;
+  border-color:grey;
+  border-radius:10px;
+  border-width:5px;
+  width:380px;
+  height:270px;
+  margin-left:600px;
+  margin-bottom:20px;
+  color:white;
+  display: inline-block;
+  position:absolute;
+  top:742px;
+  left:430px;
+  background-color:black;
+}
+
+.text3 {
+  margin-top:3px;
+}
+
+#project4 {
+  border-style:solid;
+  border-color:grey;
+  border-radius:10px;
+  border-width:5px;
+  width:380px;
+  height:270px;
+  margin-left:70px;
+  margin-bottom:20px;
+  color:white;
+  background-color:black;
+}
+
+.text4 {
+  margin-top:1px;
+}
+
+#project5 {
+  border-style:solid;
+  border-color:grey;
+  border-radius:10px;
+  border-width:5px;
+  width:380px;
+  height:270px;
+  margin-left:125px;
+  margin-bottom:20px;
+  color:white;
+  display: inline-block;
+  position:absolute;
+  top:1043px;
+  left:430px;
+  background-color:black;
+}
+
+.text5 {
+  margin-top:1px;
+}
+
+#project6 {
+  border-style:solid;
+  border-color:grey;
+  border-radius:10px;
+  border-width:5px;
+  width:380px;
+  height:270px;
+  margin-left:600px;
+  margin-bottom:20px;
+  color:white;
+  display: inline-block;
+  position:absolute;
+  top:1043px;
+  left:430px;
+  background-color:black;
+}
+
+.text6 {
+  margin-top:1px;
+}
+
+#project7 {
+  border-style:solid;
+  border-color:grey;
+  border-radius:10px;
+  border-width:5px;
+  width:380px;
+  height:270px;
+  margin-left:70px;
+  margin-bottom:20px;
+  color:white;
+  background-color:black;
+}
+
+.text7 {
+  margin-top:5px;
+}
+
+#project8 {
+  border-style:solid;
+  border-color:grey;
+  border-radius:10px;
+  border-width:5px;
+  width:380px;
+  height:270px;
+  margin-left:125px;
+  margin-bottom:20px;
+  color:white;
+  display: inline-block;
+  position:absolute;
+  top:1343px;
+  left:430px;
+  background-color:black;
+}
+
+.text8 {
+  margin-top:1px;
+}
+
+#project9 {
+  border-style:solid;
+  border-color:grey;
+  border-radius:10px;
+  border-width:5px;
+  width:380px;
+  height:270px;
+  margin-left:600px;
+  margin-bottom:20px;
+  color:white;
+  display: inline-block;
+  position:absolute;
+  top:1343px;
+  left:430px;
+  background-color:black;
+}
+
+.text9 {
+  margin-top:5px;
+}
